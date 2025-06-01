@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Basic",
+    "price": "$29/month",
+    "features": [
+      "Access to gym equipment",
+      "Locker room access",
+      "1 personal training session/month",
+      "Free Wi-Fi",
+      "Open 6 AM – 10 PM",
+      "Access to cardio and strength zones"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Standard",
+    "price": "$49/month",
+    "features": [
+      "All Basic features",
+      "Unlimited group classes (Yoga, Zumba, HIIT)",
+      "2 personal training sessions/month",
+      "Nutrition consultation",
+      "Free protein shake (1 per visit)",
+      "Weekend guest passes (2/month)",
+      "Access to stretching and mobility room"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Premium",
+    "price": "$79/month",
+    "features": [
+      "All Standard features",
+      "Unlimited personal training sessions",
+      "Sauna and steam room access",
+      "Priority class booking",
+      "24/7 gym access",
+      "Private locker",
+      "Towel service",
+      "Monthly body composition analysis",
+      "Access to VIP lounge"
+    ]
+  }
+]
