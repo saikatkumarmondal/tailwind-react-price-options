@@ -31,8 +31,8 @@ const navItems = [
 import { IoMenuSharp } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 const Navbar = () => {
+  const links = navItems.map((link) => <Link link={link} key={link.id}></Link>);
   const [open, setOpen] = useState(false);
-  const links = navItems.map((route) => <Link route={route} key={route.id} />);
   return (
     <nav className="flex justify-between mx-10 mt-4">
       <span className="flex" onClick={() => setOpen(!open)}>
@@ -41,30 +41,15 @@ const Navbar = () => {
         ) : (
           <IoMenuSharp className="md:hidden"></IoMenuSharp>
         )}
-
         <ul
-          className={`md:hidden duration-1000 absolute ${
+          className={`md:hidden duration-1000 px-10 absolute ${
             open ? "top-8" : "-top-40"
-          } bg-amber-200`}>
+          } bg-amber-300`}>
           {links}
         </ul>
-
-        <h3 className="ml-4">My Navbar</h3>
       </span>
+      <h3>My Navbar</h3>
       <ul className="md:flex hidden">{links}</ul>
-      {/* <ul className='flex'>
-        {navItems.map((link) => (
-          <li className="mr-10">
-            <a href={link.path}>{link.name}</a>
-          </li>
-        ))}
-      </ul> */}
-      {/* <ul className="flex">
-              <li className='mr-10'><a href="/">Home</a></li>
-              <li className='mr-10'><a href="/about">About</a></li>
-              <li className='mr-10'><a href="/blog">Blog</a></li>
-      </ul> */}
-
       <button>Signin</button>
     </nav>
   );
