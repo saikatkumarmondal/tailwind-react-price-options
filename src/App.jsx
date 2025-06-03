@@ -5,10 +5,15 @@ import PricingOptions from "./components/PricingOptions/PricingOptions";
 import Navbar from "./components/Navbar/Navbar";
 import ResultCharts from "./components/ResultCharts/ResultCharts";
 import ResultChartsDemo from "./components/ResultCharts/ResultChartsDemo";
+import axios from "axios";
+import MarksCart from "./components/MarksCart/MarksCart";
 
 const fetchPromise = fetch("pricingData.json").then((res) => res.json());
-console.log(fetchPromise);
+const marksPromise = axios.get("marksData.json");
 function App() {
+  // https:github.com/brillout/awesome-react-components?tab=readme-ov-file
+  // 🚀 Absolutely Awesome React Components & Libraries
+
   return (
     <>
       <header>
@@ -22,6 +27,10 @@ function App() {
           }>
           <PricingOptions fetchPromise={fetchPromise}></PricingOptions>
         </Suspense>
+        <Suspense fallback="loading loading-spinner loading-lg">
+          <MarksCart marksPromise={marksPromise}></MarksCart>
+        </Suspense>
+
         {/* <ResultCharts></ResultCharts> */}
         <ResultChartsDemo></ResultChartsDemo>
       </main>

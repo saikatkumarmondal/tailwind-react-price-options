@@ -1,0 +1,134 @@
+[
+  {
+    "student_id": 1,
+    "name": "Ram",
+    "height": 200,
+    "marks": {
+      "math": 100,
+      "english": 100,
+      "bangla": 100,
+      "accounting": 100,
+      "finance": 100
+    }
+  },
+  {
+    "student_id": 2,
+    "name": "Ramesh",
+    "height": 170,
+    "marks": {
+      "math": 85,
+      "english": 78,
+      "bangla": 90,
+      "accounting": 88,
+      "finance": 75
+    }
+  },
+  {
+    "student_id": 3,
+    "name": "Subrata",
+    "height": 168,
+    "marks": {
+      "math": 92,
+      "english": 85,
+      "bangla": 80,
+      "accounting": 90,
+      "finance": 82
+    }
+  },
+  {
+    "student_id": 4,
+    "name": "Bimal",
+    "height": 167,
+    "marks": {
+      "math": 76,
+      "english": 70,
+      "bangla": 68,
+      "accounting": 72,
+      "finance": 77
+    }
+  },
+  {
+    "student_id": 5,
+    "name": "Santosh",
+    "height": 172,
+    "marks": {
+      "math": 65,
+      "english": 72,
+      "bangla": 74,
+      "accounting": 69,
+      "finance": 70
+    }
+  },
+  {
+    "student_id": 6,
+    "name": "Pradip",
+    "height": 169,
+    "marks": {
+      "math": 88,
+      "english": 90,
+      "bangla": 85,
+      "accounting": 87,
+      "finance": 80
+    }
+  },
+  {
+    "student_id": 7,
+    "name": "Debashish",
+    "height": 171,
+    "marks": {
+      "math": 95,
+      "english": 92,
+      "bangla": 90,
+      "accounting": 93,
+      "finance": 88
+    }
+  },
+  {
+    "student_id": 8,
+    "name": "Ranjit",
+    "height": 166,
+    "marks": {
+      "math": 70,
+      "english": 65,
+      "bangla": 72,
+      "accounting": 74,
+      "finance": 69
+    }
+  },
+  {
+    "student_id": 9,
+    "name": "Dipak",
+    "height": 168,
+    "marks": {
+      "math": 90,
+      "english": 88,
+      "bangla": 84,
+      "accounting": 89,
+      "finance": 85
+    }
+  },
+  {
+    "student_id": 10,
+    "name": "Sukumar",
+    "height": 173,
+    "marks": {
+      "math": 68,
+      "english": 72,
+      "bangla": 70,
+      "accounting": 66,
+      "finance": 73
+    }
+  },
+  {
+    "student_id": 11,
+    "name": "Arun",
+    "height": 169,
+    "marks": {
+      "math": 80,
+      "english": 75,
+      "bangla": 78,
+      "accounting": 82,
+      "finance": 76
+    }
+  }
+]
